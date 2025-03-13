@@ -1,0 +1,12 @@
+2025-03-13 18:14:07,306 - 输入: 请你把中文翻译成为英文
+协会成立之初只有500名会员，发展到现在已有42700名会员。
+2025-03-13 18:14:07,307 - 真实翻译: Primarily there’s only 500 members, and now it has developed to 42,700 members.
+2025-03-13 18:14:07,307 - 模型翻译: primarily there’s only 500 members and now
+2025-03-13 18:14:07,307 - BLEU 评分: 0.0000
+2025-03-13 18:14:07,307 - --------------------------------------------------------------------------------
+2025-03-13 18:14:07,308 - 输入: 请你把中文翻译成为英文
+052C/D系列驅逐艦主要是為防空任務設計的，用於保護意義重大的海軍裝備，比如航母和兩棲攻擊艦。
+2025-03-13 18:14:07,308 - 真实翻译: The 052C/D series of destroyers are designed primarily with the air defense mission in mind, protecting high-value naval assets such as aircraft carriers and amphibious assault ships.
+2025-03-13 18:14:07,309 - 模型翻译: primarily  series of destroyers are designed 42700 with the air defense mission in mind protecting
+2025-03-13 18:14:07,309 - BLEU 评分: 0.2672
+2025-03-13 18:14:07,309 - --------------------------------------------------------------------------------

@@ -1,0 +1,4 @@
+Epoch 1, Average Loss: 6.747660
+Epoch 2, Average Loss: 6.681020
+Epoch 3, Average Loss: 6.696721
+Epoch 4, Average Loss: 6.667629

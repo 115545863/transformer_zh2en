@@ -1,0 +1,5 @@
+输入,真实翻译,模型翻译,BLEU 评分
+"请你把中文翻译成为英文
+协会成立之初只有500名会员，发展到现在已有42700名会员。","Primarily there’s only 500 members, and now it has developed to 42,700 members.",primarily there’s only 500 members and now,2.6794871946199655e-78
+"请你把中文翻译成为英文
+052C/D系列驅逐艦主要是為防空任務設計的，用於保護意義重大的海軍裝備，比如航母和兩棲攻擊艦。","The 052C/D series of destroyers are designed primarily with the air defense mission in mind, protecting high-value naval assets such as aircraft carriers and amphibious assault ships.",primarily  series of destroyers are designed 42700 with the air defense mission in mind protecting,0.2671726005525011
