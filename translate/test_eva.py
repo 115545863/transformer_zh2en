@@ -10,7 +10,7 @@ import string
 from process_data_2 import *
 
 # 读取数据集
-def load_dataset(file_path, sample_size=2000):
+def load_dataset(file_path, sample_size=50):
     with open(file_path, 'r', encoding='utf-8') as file:
         data = [json.loads(line) for line in file]
     return random.sample(data, sample_size)
@@ -54,7 +54,7 @@ def decode_output(predictions, idx2word):
 
 
 # 读取数据
-file_path = 'train.json'
+file_path = 'test_small.json'
 sample_data = load_dataset(file_path)
 
 # 处理句子
@@ -81,7 +81,7 @@ enc_inputs = enc_inputs.cuda()
 dec_inputs = dec_inputs.cuda()
 
 # 加载模型
-model = torch.load('model/model_translate_50_4.pth').cuda()
+model = torch.load('model/model_translate_zh2en_80_c2.pth').cuda()
 model.eval()
 
 # 进行推理

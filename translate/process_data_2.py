@@ -81,6 +81,11 @@ tgt_sentences = [item['output'] for item in data]
 src_vocab = build_vocab(src_sentences, tokenize_zh)
 tgt_vocab = build_vocab(tgt_sentences, tokenize_en)
 
+# 保存词汇表
+with open("vocab.json", "w", encoding="utf-8") as vocab_file:
+    json.dump({"src_vocab": src_vocab, "tgt_vocab": tgt_vocab}, vocab_file, ensure_ascii=False, indent=4)
+
+
 src_vocab_size = len(src_vocab)
 tgt_vocab_size = len(tgt_vocab)
 
